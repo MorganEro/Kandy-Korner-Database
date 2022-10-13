@@ -1,0 +1,43 @@
+{
+"locations": [
+{
+    "id": 1,
+    "address": "234 Buford Drive",
+    "sqFt": 4000
+},
+{
+    "id": 2,
+    "address": "4002 Candy Lane",
+    "sqFt": 2300
+},
+{
+    "id": 3,
+    "address": "5663 Albumar Ave ",
+    "sqFt": 2700
+},
+{
+    "id": 4,
+    "address": "24900 Westin Lane",
+    "sqFt": 3750
+},
+{
+    "id": 5,
+    "address": "711 Lesler Street",
+    "sqFt": 2675
+}
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
