@@ -1,212 +1,206 @@
 {
-"locations": [
-{
-    "id": 1,
-    "address": "234 Buford Drive",
-    "sqFt": 4000
-},
-{
-    "id": 2,
-    "address": "4002 Candy Lane",
-    "sqFt": 2300
-},
-{
-    "id": 3,
-    "address": "5663 Albumar Ave ",
-    "sqFt": 2700
-},
-{
-    "id": 4,
-    "address": "24900 Westin Lane",
-    "sqFt": 3750
-},
-{
-    "id": 5,
-    "address": "711 Lesler Street",
-    "sqFt": 2675
-}
-], 
-"productLocations": [
-{
-    "id":1,
-    "productId":1,
-    "locationId": 5
-
-},
-{
-    "id":2,
-    "productId":1,
-    "locationId": 2
-
-},
-{
-    "id":3,
-    "productId":3,
-    "locationId": 1
-
-},
-{
-    "id":4,
-    "productId":4,
-    "locationId": 3
-
-},
-{
-    "id":5,
-    "productId":2,
-    "locationId": 4
-
-}
-],
-"products": [
-{
-    "id": 1,
-    "name": "Mars",
-    "productTypeId":1,
-    "price": 2.00
-},{
-    "id": 2,
-    "name": "Hershey",
-    "productTypeId":1,
-    "price": 2.00
-},
-{
-    "id": 3,
-    "name": "Blow Pop",
-    "productTypeId":2,
-    "price": 1.00
-},
-{
-    "id": 4,
-    "name": "Bubble Yum",
-    "productTypeId":3,
-    "price": 1.00
-},
-{
-    "id": 5,
-    "name": "Cranberry Sprite",
-    "productTypeId":4,
-    "price": 3.00
-}
-], 
-"productTypes": [
-{
-    "id": 1,
-    "category": "Chocolate"
-},
-{
-    "id": 2,
-    "category": "Hard Candy"
-},{
-    "id": 3,
-    "category": "Gum"
-},{
-    "id": 4,
-    "category": "Sodas"
-}
-],
-"users": [
+  "locations": [
     {
-        "id": 1,
-        "fullName": "Dion Stoade",
-        "email": "dstoade0@cornell.edu",
-        "isStaff": true
-      },
-      {
-        "id": 2,
-        "fullName": "Windy Thorneloe",
-        "email": "wthorneloe1@usa.gov",
-        "isStaff": true
-      },
-      {
-        "id": 3,
-        "fullName": "Hillie Phillpotts",
-        "email": "hphillpotts2@rakuten.co.jp",
-        "isStaff": true
-      },
-      {
-        "id": 4,
-        "fullName": "Helenelizabeth Passfield",
-        "email": "hpassfield7@netvibes.com",
-        "isStaff": false
-      },
-      {
-        "id": 5,
-        "fullName": "Franchot Slator",
-        "email": "fslator8@51.la",
-        "isStaff": false
-      },
-      {
-        "id": 6,
-        "fullName": "Renaud Erbe",
-        "email": "rerbe9@psu.edu",
-        "isStaff": false
-      },
-      {
-        "id": 7,
-        "email": "jeremy@bakker.com",
-        "fullName": "Jeremy Bakker",
-        "isStaff": false
-      }
-],
-"customers": [
-    {
-        "id": 1,
-        "address": "2802 Zula Locks",
-        "loyaltyNumber": 10001,
-        "userId": 4
-      },
-      {
-        "id": 2,
-        "address": "56849 Fadel Gateway",
-        "loyaltyNumber": 10002,
-        "userId": 5
-      },
-      {
-        "id": 3,
-        "address": "7346 Ritchie Road",
-        "loyaltyNumber": 10003,
-        "userId": 6
-      },
-      {
-        "id": 4,
-        "address": "7346 Ritchie Road",
-        "loyaltyNumber": 10004,
-        "userId": 7
-      }
-
-
-],
-"employees":[
-    {
-        "id": 1,
-        "startDate": "10/23/2019",
-        "payRate": 33.50,
-        "locationId": 4,
-        "userId": 1
+      "id": 1,
+      "address": "234 Buford Drive",
+      "sqFt": 4000
     },
     {
-        "id": 2,
-        "startDate": "10/17/2020",
-        "payRate": 29.50,
-        "locationId": 4,
-        "userId": 2
+      "id": 2,
+      "address": "4002 Candy Lane",
+      "sqFt": 2300
     },
     {
-        "id": 3,
-        "startDate": "7/18/2022",
-        "payRate": 25.50,
-        "locationId": 4,
-        "userId": 3
-    }   
-], 
-"purchases":[]
-
-
-
-
-
-
-
-
+      "id": 3,
+      "address": "5663 Albumar Ave ",
+      "sqFt": 2700
+    },
+    {
+      "id": 4,
+      "address": "24900 Westin Lane",
+      "sqFt": 3750
+    },
+    {
+      "id": 5,
+      "address": "711 Lesler Street",
+      "sqFt": 2675
+    }
+  ],
+  "productLocations": [
+    {
+      "id": 1,
+      "productId": 1,
+      "locationId": 5
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "productId": 4,
+      "locationId": 3
+    },
+    {
+      "id": 5,
+      "productId": 2,
+      "locationId": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Mars",
+      "productTypeId": 1,
+      "price": 2
+    },
+    {
+      "id": 2,
+      "name": "Hershey",
+      "productTypeId": 1,
+      "price": 2
+    },
+    {
+      "id": 3,
+      "name": "Blow Pop",
+      "productTypeId": 2,
+      "price": 1
+    },
+    {
+      "id": 4,
+      "name": "Bubble Yum",
+      "productTypeId": 3,
+      "price": 1
+    },
+    {
+      "id": 5,
+      "name": "Cranberry Sprite",
+      "productTypeId": 4,
+      "price": 3
+    },
+    {
+      "name": "Apple Fizzy",
+      "productTypeId": 4,
+      "price": "3.25",
+      "id": 6
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "category": "Chocolate"
+    },
+    {
+      "id": 2,
+      "category": "Hard Candy"
+    },
+    {
+      "id": 3,
+      "category": "Gum"
+    },
+    {
+      "id": 4,
+      "category": "Sodas"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Dion Stoade",
+      "email": "dstoade0@cornell.edu",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "fullName": "Windy Thorneloe",
+      "email": "wthorneloe1@usa.gov",
+      "isStaff": true
+    },
+    {
+      "id": 3,
+      "fullName": "Hillie Phillpotts",
+      "email": "hphillpotts2@rakuten.co.jp",
+      "isStaff": true
+    },
+    {
+      "id": 4,
+      "fullName": "Helenelizabeth Passfield",
+      "email": "hpassfield7@netvibes.com",
+      "isStaff": false
+    },
+    {
+      "id": 5,
+      "fullName": "Franchot Slator",
+      "email": "fslator8@51.la",
+      "isStaff": false
+    },
+    {
+      "id": 6,
+      "fullName": "Renaud Erbe",
+      "email": "rerbe9@psu.edu",
+      "isStaff": false
+    },
+    {
+      "id": 7,
+      "email": "jeremy@bakker.com",
+      "fullName": "Jeremy Bakker",
+      "isStaff": false
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "address": "2802 Zula Locks",
+      "loyaltyNumber": 10001,
+      "userId": 4
+    },
+    {
+      "id": 2,
+      "address": "56849 Fadel Gateway",
+      "loyaltyNumber": 10002,
+      "userId": 5
+    },
+    {
+      "id": 3,
+      "address": "7346 Ritchie Road",
+      "loyaltyNumber": 10003,
+      "userId": 6
+    },
+    {
+      "id": 4,
+      "address": "7346 Ritchie Road",
+      "loyaltyNumber": 10004,
+      "userId": 7
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": "10/23/2019",
+      "payRate": 33.5,
+      "locationId": 4,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "startDate": "10/17/2020",
+      "payRate": 29.5,
+      "locationId": 4,
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "startDate": "7/18/2022",
+      "payRate": 25.5,
+      "locationId": 4,
+      "userId": 3
+    }
+  ],
+  "purchases": []
 }
